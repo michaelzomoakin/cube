@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--- Basic Page Needs  -->
+    <meta charset="utf-8">
+    <title> Cube</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Mobile Specific Meta  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/pogo-slider.min.css">
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/meanmenu.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.ico">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+
+<body>
+    <!--<div id="preloader"></div>-->
+    <!-- header-start -->
+    <header>
+        <div class="header-upper-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 d-none d-md-block col-md-5">
+                        <div class="lang-time">
+                            <div class="lt-language d-none d-xl-block">
+                                <p class="current">Languages</p>
+                                <ul class="list">
+                                    <li>
+                                        <a href="#">English</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="lt-time">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-sm-12 col-md-7 col-12">
+                        <div class="address-phone">
+                            <div class="ap-address">
+                                <p class="address">
+                                    <span>
+                                        <i class="fas fa-map-marker-alt"></i>
+                                    </span> Unit 701, 7th floor, Re-Insurance House, Marina Lagos Island, Lagos Nigeria.
+                                </p>
+                            </div>
+                            <div class="ap-phone">
+                                <p class="phone">
+                                    <span>
+                                        <i class="fas fa-phone"></i>
+                                    </span>
+                                    +234 (0) 708 895 7111
+                                </p>
+
+                                <p class="phone">
+                                    <span>
+                                        <i class="fas fa-phone"></i>
+                                    </span>
+                                    +234 (0) 909 391 6879
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-sm-12 col-md-12 col-12">
+                        <div class="header-social">
+                            <ul>
+                                <li>
+                                    <a href="25_index-6.html#" target="_blank">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="25_index-6.html#" target="_blank">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="25_index-6.html#" target="_blank">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="25_index-6.html#" target="_blank">
+                                        <i class="fab fa-pinterest-p"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="25_index-6.html#" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-2 col-sm-12 col-12">
+                        <div class="logo">
+                            <a href="/">
+                                <img src="assets/img/logo.png" style=" height: 60px;" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 offset-lg-0 col-md-8 offset-md-2 col-sm-12 offset-sm-0 col-12">
+                        <div class="menu">
+                            <nav id="mobile_menu_active">
+                                <ul>
+                                    <li>
+                                        <a href="/"> Home</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12 col-12">
+                        <div class="search-consultant">
+
+                            <div class="sc-consultant">
+                                <a class="link" href="http://216.158.237.236:8000/login"> Login</a>
+                            </div>
+                            <div class="sc-consultant">
+                                <a class="link" href="http://216.158.237.236:8000/register">Register Store</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-3 col-sm-12 col-12">
+            <div class="sc-consultant">
+                <!-- search-modal-start -->
+                <div id="login" class="search-modal modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <h3 class="modal-title">Provide Your Login Details To Login</h3>
+                            <form action="/login" method="post">
+                                <div class="row">
+                                    <div class="col-lg-12 col-sm-12 col-12">
+                                        <div class="cf-box">
+                                            <input type="text" name="username" placeholder="Username..."
+                                                class="form-username form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 offset-sm-4">
+                                        <div class="sc-login-box">
+                                            <input type="password" name="password" placeholder="Password..."
+                                                class="form-password form-control">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12 col-sm-12 col-12">
+                                        <div class="form-group">
+                                            <button type="submit" class="btn btn-style-1">Submit</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="modal-close">
+                                <button type="button" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- search-modal-end -->
+            </div>
+        </div>
+    </header> <!-- header-end -->
+
+    <!-- slider-area-start -->
+    <div class="h6-slider-area">
+        <video src="assets/video/people.mp4" autoplay="" loop=""></video>
+        <div class="h6-slider-full">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 offset-lg-1 col-md-12 col-sm-12 col-12">
+                        <div class="h5-slider-content">
+                            <h2 class="title">Grow Your Business With Us</h2>
+                            <h1 class="cd-headline clip">
+                                <span class="blc">We Create </span>
+                                <span class="cd-words-wrapper">
+                                    <b class="is-visible">Value</b>
+                                    <b>Dream</b>
+                                    <b>Confidence</b>
+                                </span>
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--- SHOWCASE SLIDER -->
+    <section id="showcase">
+        <div id="mycarousel" class="carousel slide" data-ride="carousel" data-wrap="true">
+            <ol class="carousel-indicators">
+                <li class="active" data-target="#slider4" data-slide-to="0"></li>
+                <li class="active" data-target="#slider4" data-slide-to="1"></li>
+                <li class="active" data-target="#slider4" data-slide-to="2"></li>
+                <li class="active" data-target="#slider4" data-slide-to="3"></li>
+                <li class="active" data-target="#slider4" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-image-1 active">
+                    <div class="container">
+                        <div class="carousel-caption mb-5">
+                            <div class="row">
+                                <div class="col-md-6 text-md-left">
+                                    <h1>BRANCHES.</h1>
+                                    <p class="lead">This module is where various branches of an organisation are
+                                        managed, branches can be added, edited and deleted</p>
+                                    <a href="http://realmonline.live:8080/" class="btn btn-lg button1"> <i
+                                            class="fas fa-sign-in-alt"></i> Check It Out</a>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <img src="./assets/img/mockup1.png" alt="Create Building" class="img-fluid">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item carousel-image-2">
+                    <div class="container">
+                        <div class="carousel-caption mb-5">
+                            <div class="row">
+                                <div class="col-md-6 text-md-left">
+                                    <h1>EXPENSES.</h1>
+                                    <p class="lead">This is where additional costs incurred by the organisation are
+                                        registered for example cost of transportation, and other miscellaneous.</p>
+                                    <a href="http://realmonline.live:8080/" class="btn btn-lg button2"> <i
+                                            class="fas fa-sign-in-alt"></i> Check It Out</a>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="./assets/img/mockup2.png" alt="Create Building" class="img-fluid">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item carousel-image-3">
+                    <div class="container">
+                        <div class="carousel-caption mb-5">
+                            <div class="row">
+                                <div class="col-md-6 text-md-left">
+                                    <h1>PRODUCTS.</h1>
+                                    <p class="lead">Here, different products available or in stock in various branches
+                                        are registered and displayed. The products can be edited or deleted if
+                                        necessary, restocking can also be done whenever the branch is running out of
+                                        product.</p>
+                                    <a href="http://realmonline.live:8080/" class="btn btn-lg button3"> <i
+                                            class="fas fa-sign-in-alt"></i> Check It Out</a>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <img src="./assets/img/mockup3.png" alt="Create Building" class="img-fluid">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-4">
+                    <div class="container">
+                        <div class="carousel-caption mb-5">
+                            <div class="row">
+                                <div class="col-md-6 text-md-left">
+                                    <h1>SALES</h1>
+                                    <p class="lead">This module shows the sales a user has made, also invoices can be
+                                        generated and downloaded for each sale made. </p>
+                                    <a href="http://realmonline.live:8080/" class="btn btn-lg button4"> <i
+                                            class="fas fa-sign-in-alt"></i> Check It Out</a>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <img src="./assets/img/mockup1.png" alt="Create Building" class="img-fluid">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-5">
+                    <div class="container">
+                        <div class="carousel-caption mb-5">
+                            <div class="row">
+                                <div class="col-md-6 text-md-left">
+                                    <h1>USERS</h1>
+                                    <p class="lead">This module involves adding different users by the admin of an
+                                        organisation. The organisation admin may decide to add different users to
+                                        different branches. Depending on the privileges given, the user can perform some
+                                        functions, ie makes sales, add product, edit products and restock.</p>
+                                    <a href="http://realmonline.live:8080/" class="btn btn-lg button5"> <i
+                                            class="fas fa-sign-in-alt"></i> Check It Out</a>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <img src="./assets/img/mockup3.png" alt="Create Building" class="img-fluid">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <a href="#mycarousel" class="carousel-control-prev" data-slide="prev"> <span
+                    class="carousel-control-prev-icon"></span> </a>
+            <a href="#mycarousel" class="carousel-control-next" data-slide="next"> <span
+                    class="carousel-control-next-icon"></span> </a>
+        </div>
+    </section>
+
+
+
+    <!-- Support -->
+    <!--SUPPORT-->
+    <section id="support">
+        <div class="row">
+            <div class="col-md-6 supportImg">
+                <!--<img src="img/support.jpg" alt="support" class="supportImg">-->
+            </div>
+            <div class="col-md-6 supportTop">
+                <h1 class="text-left mb-5">Get the Support You Need.</h1>
+                <p class="supportP lead okay mb-5">Our software is intuitive and easy to use, but it's normal to have a
+                    question
+                    or two! Ramp new users fast and get the training you need from our award-winning Customer Success
+                    team and on-demand resources.</p>
+                <a href="#footer">
+
+                    <button class="btn btn-secondary btn-lg" style="cursor: pointer;"> Contact
+                        Us</button>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- top-agency-area-start -->
+    <!-- top-agency-area-end -->
+    <!-- welcome-area-start -->
+    <!-- welcome-area-end -->
+
+    <!-- how-to-area-start -->
+    <!-- how-to-area-end -->
+    <br>
+    <!-- counter-area-start -->
+    <!-- counter-area-end -->
+    <!-- pricing-area-start -->
+    <!-- pricing-area-end -->
+    <!-- testimonial-area-start -->
+    <!-- testimonial-area-end -->
+    <!-- brands-area-start -->
+    <!-- brands-area-end -->
+    <!-- contact-details-area-start -->
+    <!-- contact-details-area-end -->
+    <!-- map-start -->
+    <!-- map-end -->
+    <!-- question-area-start -->
+
+    <!-- question-area-end -->
+    <!-- footer-start -->
+    <section id="footer">
+        <footer>
+            <div class="footer-top-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-sm-6 col-12">
+                            <div class="fw-info footer-widget">
+                                <div class="flogo">
+                                    <img src="assets/img/logo2.png" alt="">
+                                </div>
+                                <p class="text">We provide solutions to our client's brilliant ideas.</p>
+                                <div class="address">
+                                    <h5><span><i class="fas fa-map-marker-alt"></i></span> Address:</h5>
+                                    <p>Unit 701, 7th floor, Re-Insurance House, Marina Lagos Island, Lagos Nigeria.
+                                    </p>
+                                </div>
+                                <ul class="social">
+                                    <li><a href="25_index-6.html#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li><a href="25_index-6.html#" target="_blank"><i class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li><a href="25_index-6.html#" target="_blank"><i
+                                                class="fab fa-google-plus-g"></i></a>
+                                    </li>
+                                    <li><a href="25_index-6.html#" target="_blank"><i
+                                                class="fab fa-linkedin-in"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12 col-12">
+                            <div class="fba-left">
+                                <p><a href="https://optisoft.ng/" target="_blank">Optisoft Technology</a> © 2018. All
+                                    Rights
+                                    Reserved.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12 col-12">
+                            <div class="fba-right">
+                                <p>Designed & Developed By Optisoft Team</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+    <!-- footer-end -->
+    <!-- gmap-script -->
+    <script>
+        function initMap() {
+            var locationRio = {
+                lat: -37.814929,
+                lng: 144.996617
+            };
+            var map = new google.maps.Map(document.getElementById('googleMap'), {
+                zoom: 13,
+                center: locationRio,
+                gestureHandling: 'cooperative'
+            });
+            var marker = new google.maps.Marker({
+                position: locationRio,
+                map: map,
+                title: 'Hello World!'
+            });
+        }
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAH5RWCDq3WYxQy9XSPDrreRX-CY8rxJcY&callback=initMap">
+        </script>
+    <!-- gmap-script -->
+    <!-- Scripts -->
+    <script src="/assets/js/jquery-3.2.0.min.js"></script>
+    <script src="/assets/js/jquery-ui.js"></script>
+    <script src="/assets/js/owl.carousel.min.js"></script>
+    <script src="/assets/js/jquery.pogo-slider.min.js"></script>
+    <script src="/assets/js/jquery.counterup.min.js"></script>
+    <script src="/assets/js/parallax.js"></script>
+    <script src="/assets/js/countdown.js"></script>
+    <script src="/assets/js/animated.headline.min.js"></script>
+    <script src="/assets/js/jquery.fancybox.min.js"></script>
+    <script src="/assets/js/imagesLoaded-PACKAGED.js"></script>
+    <script src="/assets/js/isotope-packaged.js"></script>
+    <script src="/assets/js/jquery.meanmenu.js"></script>
+    <script src="/assets/js/jquery.scrollUp.js"></script>
+    <script src="/assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="/assets/js/jquery.mixitup.min.js"></script>
+    <script src="/assets/js/jquery.waypoints.min.js"></script>
+    <script src="/assets/js/popper.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/theme.js"></script>
+
+
+</body>
+
+</html>
